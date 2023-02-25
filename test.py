@@ -1,0 +1,5 @@
+x=int(input("total toys"))
+y=float(input("amount for toys"))
+z=float(input("amount left"))
+print("cost of each toy",(y/x))
+print("total amount he has",y+z)
