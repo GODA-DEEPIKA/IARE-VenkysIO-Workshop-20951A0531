@@ -3,7 +3,6 @@ public class ReverseWordsInParagraph {
     public static void main(String[] args) {
         Scanner myobj=new Scanner(System.in);
         System.out.println("enter:");
-       
         String paragraph = myobj.nextLine();
         String reversedParagraph = reverseWords(paragraph);
         System.out.println(reversedParagraph);
@@ -13,7 +12,6 @@ public class ReverseWordsInParagraph {
             return sentence;
         }
         else {
-            // Find the index of the first space character
             int spaceIndex = sentence.indexOf(' ');
            
             if (spaceIndex == -1) {
